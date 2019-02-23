@@ -1,0 +1,28 @@
+{
+  "name": "es6-jest-library-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for libraries using es6",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --env.dev",
+    "build": "webpack --env.production",
+    "test": "jest",
+    "lint": "eslint src --color"
+  },
+  "author": "liqiang372 <liqiang372@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "babel-jest": "^24.1.0",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^24.1.0",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}
